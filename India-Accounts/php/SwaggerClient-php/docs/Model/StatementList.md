@@ -1,0 +1,10 @@
+# StatementList
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**statement_id** | **string** | Unique identifier for the statement | [optional] 
+**statement_date** | [**\DateTime**](\DateTime.md) | Date on which the account statement has been generated in ISO 8601 date format YYYY-MM-DD | [optional] 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+

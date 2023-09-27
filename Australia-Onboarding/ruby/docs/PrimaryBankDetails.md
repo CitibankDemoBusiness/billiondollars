@@ -1,0 +1,8 @@
+# SwaggerClient::PrimaryBankDetails
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**bank_name** | **String** | Main bank name with Citi. This is a reference data field. Please use /v1/utilities/referenceData/{bankName} resource to get valid value of this field with description. | [optional] 
+**account_type** | **String** | Type of the account. This is a reference data field. Please use /v1/utilities/referenceData/{accountType} resource to get valid value of this field with description. | [optional] 
+

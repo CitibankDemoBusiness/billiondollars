@@ -1,0 +1,20 @@
+# IO.Swagger.Model.IdentificationDocumentDetailsAdd
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**IdType** | **string** | Type of Identification document. This is a reference data field. Please use /v1/utilities/referenceData/{idType} resource to get valid values of this field with descriptions | [optional] 
+**IdNumber** | **string** | Unique identifier of identification document. Ex: Passport Number | [optional] 
+**IdExpiryDate** | **DateTime?** | Expiry date of identification document in ISO 8601 date format YYYY-MM-DD | [optional] 
+**IdIssueDate** | **DateTime?** | Issuance date of identification document in ISO 8601 date format YYYY-MM-DD | [optional] 
+**IdIssuePlace** | **string** | Identification document issuance place | [optional] 
+**IdStatus** | **string** | Identification document issuance status | [optional] 
+**IdIssueState** | **string** | State from which identification document was issued.This is a reference data field. Please use /v1/utilities/referenceData/{addressState} resource to get valid value of this field with description. | [optional] 
+**IdIssueCountry** | **string** | Country of issuance. This is a reference data field. Please use /v1/utilities/referenceData/{country} resource to get valid value of this field with description. | [optional] 
+**IsPrimaryId** | **bool?** | Flag to mark primary identification document. Valid values: true and false | [optional] 
+**ReferenceNumber** | **string** | Medicare reference number. | [optional] 
+**MiddleName** | **string** | Middle name printed on Medicare ID. | [optional] 
+**Color** | **string** | Color of Medicare ID. This is a reference data field. Please use /v1/apac/utilities/referenceData/{idCardColor} resource to get possible values of this field with descriptions. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

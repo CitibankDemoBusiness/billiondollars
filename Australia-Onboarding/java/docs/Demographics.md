@@ -1,0 +1,18 @@
+# Demographics
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**gender** | **String** | Gender/sex. This is a reference data field. Please use /v1/apac/utilities/referenceData/{gender} resource to get possible value of this field with description. You can use gender field name as the referenceCode parameter to retrieve the values. | 
+**dateOfBirth** | [**LocalDate**](LocalDate.md) | Prospect&#x27;s date of birth. Format: ISO 8601 date format YYYY-MM-DD | 
+**placeOfBirth** | **String** | Place of birth |  [optional]
+**countryOfBirth** | **String** | Prospect&#x27;s country of birth. This is a reference data field. Please use /v1/apac/utilities/referenceData/{country} resource to get possible values of this field with descriptions. You can use countryOfBirth field name as the referenceCode parameter to retrieve the values. |  [optional]
+**nationality** | **String** | Prospect&#x27;s nationality. This is a reference data field. Please use /v1/apac/utilities/referenceData/{country} resource to get possible value of this field with description. You can use nationality field name as the referenceCode parameter to retrieve the values. | 
+**domicileCountryCode** | **String** | Domicile country code. This is a reference data field. Please use /v1/apac/utilities/referenceData/{country} resource to get possible value of this field with description. You can use domicileCountryCode field name as the referenceCode parameter to retrieve the values. |  [optional]
+**permanentResidencyCountryCode** | **String** | Prospect&#x27;s permanent residency country code. This is a reference data field. Please use /v1/apac/utilities/referenceData/{country} resource to get possible value of this field with description. You can use permanentResidencyCountryCode field name as the referenceCode parameter to retrieve the values. |  [optional]
+**maritalStatus** | **String** | Prospect&#x27;s marital status. This is a reference data field. Please use /v1/apac/utilities/referenceData/{maritalStatus} resource to get possible value of this field with description. You can use the maritalStatus as the referenceCode parameter to retrieve the values. |  [optional]
+**residencyStatus** | **String** | Indicate status of residence whether owned property/rented property etc. This is a reference data field. Please use /v1/apac/utilities/referenceData/{residenceStatus} resource to get possible value of this field with description. You can use maritalStatus field name as the referenceCode parameter to retrieve the values. |  [optional]
+**residenceType** | **String** | Type of Residence. Private Condo/government hdb etc. This is a reference data field. Please use /v1/apac/utilities/referenceData/{residenceType} resource to get possible value of this field with description. You can use residenceType field name as the referenceCode parameter to retrieve the values. |  [optional]
+**taxDomicileCountryCode** | **String** | Tax domicile country code. This is a reference data field. Please use /v1/apac/utilities/referenceData/{country} resource to get possible value of this field with description. You can use taxDomicileCountryCode field name as the referenceCode parameter to retrieve the values. |  [optional]
+**spokenLanguageCode** | **String** | Prospect&#x27;s spoken language. This is a reference data field. Please use /v1/apac/utilities/referenceData/{spokenLanguageCode} resource to get possible values of this field with descriptions. You can use spokenLanguageCode field name as the referenceCode parameter to retrieve the values. |  [optional]
+**correspondenceLanguageCode** | **String** | Language for correspondence (Statement/Advices etc). |  [optional]

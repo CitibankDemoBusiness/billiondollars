@@ -1,0 +1,9 @@
+# SupplementaryCardListingResponse
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**supplementary_cards** | [**list[SupplementaryCards]**](SupplementaryCards.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

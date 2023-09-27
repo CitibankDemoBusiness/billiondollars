@@ -1,0 +1,9 @@
+# SwaggerClient::ApplicationAddResponse
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**application_id** | **String** | Unique identifier for the application | 
+**application_stage** | **String** | Current stage of an application.This is a reference data field. Please use /v1/apac/utilities/referenceData/{applicationStage} resource to get possible value of this field with description. You can use applicationStage field name as the referenceCode parameter to retrieve the values. | 
+**control_flow_id** | **String** | Control flow id is used to control the flow for subsequent requests in the session. | 
+

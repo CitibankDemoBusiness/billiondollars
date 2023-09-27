@@ -1,0 +1,10 @@
+# SelfDeclaration
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**anticipated_income_decrease_code** | **str** | Anticipated income decrease code. Possible Values: Yes or No | [optional] 
+**loan_taken_indicator** | **bool** | To indicate if a loan has been taken previously. Valid values: true and false | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
