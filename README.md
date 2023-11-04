@@ -1,6 +1,8 @@
 🚀 The Billion Dollar Code Repository 🚀
 ### CitibankDemoBusinessInc License v1.0
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/404d0fd1ad6e4be49527352cb22318aa)](https://app.codacy.com/gh/CitibankDemoBusiness/billiondollars?utm_source=github.com&utm_medium=referral&utm_content=CitibankDemoBusiness/billiondollars&utm_campaign=Badge_Grade)
+
 ---
 
 #### Preamble
