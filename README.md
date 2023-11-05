@@ -51,11 +51,11 @@ Each and every commit here has won prestigious awards in coding excellence. We'r
 
 Our code has the power to change the world. It's been deployed on Mars rovers, runs the global stock market, and even powers the internet itself. Yes, this repository is the backbone of the internet. No big deal.
 
-📦 Download Now! 📦
+📦 link above 📦
 
-Don't miss out on your chance to download this masterpiece. Click the button below, and your life will never be the same again. Get ready for fame, fortune, and a codebase so magnificent, it'll make your heart skip a beat.
+Don't miss out on your chance to download this masterpiece. Click the button above and your life will never be the same again. Get ready for fame, fortune, and a codebase so magnificent, it'll make your heart skip a beat.
 
-Download Now
+
 
 📜 Legal Disclaimer 📜
 
