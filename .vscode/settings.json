@@ -1,0 +1,3 @@
+{
+    "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|50?}"
+}
