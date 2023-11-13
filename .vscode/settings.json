@@ -1,3 +1,5 @@
 {
-    "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|50?}"
+    "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|50?}",
+    "python.analysis.userFileIndexingLimit": -1,
+    "remoteHub.gitProtocol": "ssh"
 }
