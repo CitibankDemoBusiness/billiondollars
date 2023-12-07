@@ -33,7 +33,7 @@ git commit -m "$release_note"
 
 # Sets the new remote
 git_remote=`git remote`
-if [ "$git_remote" = "" ]; then # git remote not defined
+if [ "$git_remote" = "https://github.com/CitibankDemoBusiness/billiondollars.git" ]; then # git remote not defined
 
     if [ "$GIT_TOKEN" = "" ]; then
         echo "[INFO] \$GIT_TOKEN (environment variable) is not set. Using the git credential in your environment."
